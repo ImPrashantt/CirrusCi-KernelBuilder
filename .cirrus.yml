@@ -12,4 +12,4 @@ task:
 
   Build_script:
       - git clone --depth=1 -b lineage-2 https://github.com/projects-nexus/nexus_kernel_xiaomi_lavender lv && cd lv
-      - /noclone3 bash .circleci/build.sh --a12-qti
+      - bash .circleci/build.sh --a12-qti
