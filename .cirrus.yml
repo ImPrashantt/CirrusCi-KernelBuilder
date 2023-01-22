@@ -9,7 +9,9 @@ task:
       image: nexgang/ubuntu:latest
       cpu: 4
       memory: 16G
+      stateful: true
+      greedy: true
 
   Build_script:
-      - git clone --depth=1 -b idk https://github.com/projects-nexus/nexus_kernel_xiaomi_lavender lv && cd lv
+      - git clone --depth=1 -b cmn https://github.com/projects-nexus/nexus_kernel_xiaomi_lavender lv && cd lv
       - /noclone3 bash build.sh --old
