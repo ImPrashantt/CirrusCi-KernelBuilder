@@ -14,5 +14,5 @@ task:
       greedy: true
 
   Build_script:
-      - git clone --depth=1 -b master https://Prashant-1695:$my_og_token@github.com/Prashant-1695/kernel_xiaomi_lavender-4.4 lv && cd lv
+      - git clone --depth=1 -b quoto https://Prashant-1695:$my_og_token@github.com/Prashant-1695/kernel_xiaomi_lavender-4.4 lv && cd lv
       - /noclone3 bash build.sh --old
