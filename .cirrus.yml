@@ -13,5 +13,5 @@ task:
       greedy: true
 
   Build_script:
-      - git clone --depth=1 -b cam-2 https://github.com/projects-nexus/nexus_kernel_xiaomi_lavender lv && cd lv
+      - git clone --depth=1 -b los https://github.com/projects-nexus/nexus_kernel_xiaomi_lavender lv && cd lv
       - /noclone3 bash build.sh --old
