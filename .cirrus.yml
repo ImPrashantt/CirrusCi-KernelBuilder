@@ -16,6 +16,6 @@ task:
       - git config --global user.email "prashant33968@gmail.com"
       - git config --global user.name "Prashant-1695"
       - git clone --depth=1 -b los https://github.com/projects-nexus/nexus_kernel_xiaomi_lavender lv && cd lv
-      - git fetch https://github.com/RooGhz720/kernel_xiaomi_lavender a13-cam && git cherry-pick 0df5d638e4d35ccb217e452446066330bacf4b9e^..3e5e85449704d002dcc59ab07c51908e55796933
+      - git fetch https://github.com/RooGhz720/kernel_xiaomi_lavender a13-cam && git cherry-pick d8679e04ca8221148cf7a043e4dd0539fddea84f^..3e5e85449704d002dcc59ab07c51908e55796933
       - git fetch https://github.com/PixelExperience-Devices/kernel_xiaomi_sdm660 thirteen && git cherry-pick c67bf421e7ce69bb94c5c0a99ebdc9f1566cbf42^..b59db4a341bd6dfca43f060603fc47d025e468b0
       - /noclone3 bash build.sh --old
