@@ -15,5 +15,5 @@ task:
   Build_script:
       - git config --global user.email "prashant33968@gmail.com"
       - git config --global user.name "Prashant-1695"
-      - git clone --depth=1 -b 13 https://github.com/projects-nexus/nexus_kernel_xiaomi_lavender lv && cd lv
+      - git clone --depth=1 -b 13-quota https://github.com/projects-nexus/nexus_kernel_xiaomi_lavender lv && cd lv
       - /noclone3 bash build.sh --old
